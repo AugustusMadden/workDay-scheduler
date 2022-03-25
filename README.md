@@ -1,5 +1,7 @@
 # worDay-scheduler
 
+Utilizing a combination of javascript and compatible API's, this application offers real-time updating visuals and persisting text for saving one's work after shutting your computer off. The main challenges in development came in trying to differentiate between jQuery and vanilla javascript, as the developer was still not fully versed in the intricacies and rules of how each element should be properly formatted both with each other and on their own.
+
 ## Installation
 
 
@@ -11,13 +13,13 @@
 
 ## Usage
 
-Press the Start button below the heading, than answer the questions as they appear.
+Enter text into any of the boxes below. Press the "Save Text" button for any text you would like to have persist across reloads.
 
 ![Sheenshot of hero image and header](images/screenshot.PNG)
 
 ## Credits
 
-Special thanks to MDN WebDocs and W3 for assistance
+Special thanks to MDN WebDocs and W3 for assistance, as well as Bootstrap, Moment, and jQuery for the helpful tools.
 
 - https://developer.mozilla.org/en-US/docs/Web/CSS
 - https://www.w3schools.com/html/default.asp

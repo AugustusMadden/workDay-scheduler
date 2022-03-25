@@ -43,29 +43,52 @@ textarea {
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: #696969;
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #2d6425;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #4e1c1c;
   color: white;
 }
 
 .saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
+  border: 1px solid black;
+  border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
-  color: white;
+  background-color: #7ad3e7;
+  padding: 35px;
+  color: black;
 }
 
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  margin:auto;
+  border: solid #000000;
+}
+
+.timeRow {
+  display: flex;
+  flex-direction: row;
+  margin: 25px;
+}
+
+.hourText{
+  border: 1px solid black;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: #cecece;
+  padding: 10px;
+  color: black;
 }
